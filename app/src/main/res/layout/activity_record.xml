@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/start_record"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/light_green" />
+
+        <ImageButton
+            android:id="@+id/stop_record"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:background="@color/main_red" />
+
+        <TextView
+            android:id="@+id/play_back"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/main_orange"
+            android:text="playback" />
+
+    </LinearLayout>
+
+</RelativeLayout>
